@@ -1,7 +1,6 @@
 baseurl: "/"
 languageCode: "en-us"
 title: "Songjhaha"
-theme: ""
 googleAnalytics: ""
 disqusShortname: ""
 ignoreFiles: ["_cache$"]
