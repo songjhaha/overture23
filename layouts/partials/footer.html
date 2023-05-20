@@ -1,0 +1,13 @@
+<!-- modified from https://github.com/yihui/hugo-xmin
+The MIT License (MIT)
+Copyright (c) 2017-2022 Yihui Xie -->
+
+<footer>
+  {{ partial "foot_custom.html" . }}
+  {{ with .Site.Params.footer }}
+  <hr/>
+  {{ replace . "{Year}" now.Year | markdownify}}
+  {{ end }}
+  </footer>
+  </body>
+</html>

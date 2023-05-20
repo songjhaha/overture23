@@ -1,0 +1,14 @@
+/*
+modified from https://github.com/yihui/hugo-xmin
+The MIT License (MIT)
+Copyright (c) 2017-2022 Yihui Xie
+*/
+
+body {
+  font-family: Optima, Candara, Calibri, Arial, sans-serif;
+  font-size: 120%;
+}
+code {
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 100%;
+}
